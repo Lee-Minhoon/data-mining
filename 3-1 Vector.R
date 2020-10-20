@@ -65,3 +65,7 @@ setdiff(x, y)
 setdiff(y, x)
 setequal(x, y)
 setequal(x, z)
+
+# Assignment
+x = (5:14)
+x[c(3, 5, 9)]

@@ -33,3 +33,9 @@ is.integer(xl)
 
 # ¿¬»êÀÚ
 1 < x & x < 5
+
+# Assignment
+x = 3
+1 < x & x < 5
+x = 8
+1 < x & x < 5

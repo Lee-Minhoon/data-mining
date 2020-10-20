@@ -38,3 +38,8 @@ dim(x)
 sample(x)
 sample(x, 10)
 sample(10)
+
+# Assignment
+x = array(1:24, c(4,6))
+x
+x[, seq(1, ncol(x), 2)]
