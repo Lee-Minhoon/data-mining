@@ -22,7 +22,7 @@ voice = read.csv("./resource/voice.csv")
 str(voice)
 table(is.na(voice))
 
-# 강의 보고 입력하기
+# 강의 보고 입력하기!
 f = random..~
   
 # Assignment
