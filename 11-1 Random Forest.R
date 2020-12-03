@@ -33,5 +33,7 @@ treesize(small_Forest)
 small_Forest
 
 # Assignment
+newd = data.frame(Sepal.Length = c(4.7, 5.31, 6.4, 5.2, 6.3), Sepal.Width = c(3.2, 3.7, 3.22, 2.71, 3.3),
+                  Petal.Length = c(1.3, 1.5, 4.5, 3.9, 6.1), Petal.Width = c(0.22, 0.2, 1.5, 1.4, 2.5))
 predict(f, newdata = newd, type = 'prob')
 predict(small_Forest, newdata = newd, type = 'prob')
