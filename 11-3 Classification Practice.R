@@ -14,6 +14,7 @@ p = predict(r, ucla, type = 'class')
 table(p, ucla$admit)
 
 # Random Forest
+library(randomForest)
 f = randomForest(admit ~ ., data = ucla)
 print(f)
 

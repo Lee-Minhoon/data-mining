@@ -37,7 +37,7 @@ k
 install.packages("caret")
 library(caret)
 r = train(Species ~ ., data = iris, method = 'rpart')
-t = train(Species ~ ., data = iris, method = 'rt')
+t = train(Species ~ ., data = iris, method = 'rf')
 s = train(Species ~ ., data = iris, method = 'svmRadial')
 k = train(Species ~ ., data = iris, method = 'knn')
 
