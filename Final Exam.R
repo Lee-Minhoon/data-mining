@@ -70,7 +70,7 @@ str(ucla)
 
 # 5-2. 학습 데이터와 테스트데이터 분리과정
 library(caret)
-train_list = createDataPartition(y = ucla$rank, p = 0.6, list = FALSE)
+train_list = createDataPartition(y = ucla$admit, p = 0.6, list = FALSE)
 ucla_train = ucla[train_list, ]
 ucla_test = ucla[-train_list, ]
 
