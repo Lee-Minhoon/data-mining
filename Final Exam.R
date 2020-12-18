@@ -2,7 +2,7 @@
 # Training Data
 x = c(3.0, 6.0, 3.0, 6.0, 7.5, 7.5, 15.0)
 u = c(10.0, 10.0, 20.0, 20.0, 5.0, 10.0, 12.0)
-y = c(4.65, 5.9, 6.7, 8.02, 7.7, 8.1, 6.1)
+y = c(4.56, 5.9, 6.7, 8.02, 7.7, 8.1, 6.1)
 
 # Linear Model
 m = lm(y ~ x + u)
@@ -14,7 +14,7 @@ nu = c(15.0, 12.0)
 new_data = data.frame(x = nx, u = nu)
 
 # Predict
-ny = predict(m , new_data)
+ny = predict(m, new_data)
 ny
 
 # Plotting
